@@ -200,10 +200,28 @@ table {
 .main_container .middle_content_container1 {
   width: 100%;
   height: 500px;
-  border: 2px solid blue;
 }
 .main_container .middle_content_container1 .middle_content1 {
   width: 100%;
   height: 500px;
-  border: 2px solid blue;
+}
+.main_container .middle_content_container2 {
+  width: 100%;
+  height: 600px;
+}
+.main_container .middle_content_container2 .middle_content_2 {
+  width: 100%;
+  height: 600px;
+}
+.main_container .middle_content_container3 {
+  width: 100%;
+  height: 600px;
+}
+.main_container .middle_content_container3 .middle_content_3 {
+  width: 100%;
+  height: 600px;
+}
+.main_container .checkout_btn_container {
+  width: 100%;
+  height: 100px;
 }

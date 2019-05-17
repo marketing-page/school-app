@@ -131,7 +131,7 @@ table {
 }
 .main_container {
   width: 100%;
-  height: 4000px;
+  height: 100%;
   border: 2px solid red;
 }
 .main_container .top_nav_container {
@@ -143,30 +143,63 @@ table {
   width: 50%;
   height: 50px;
 }
+.main_container .top_nav_container .social_containers .social {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.main_container .top_nav_container .social_containers .social i {
+  font-size: 20pt;
+  margin-right: 10%;
+}
 .main_container .top_nav_container .nav_container {
   width: 50%;
   height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main_container .top_nav_container .nav_container nav a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: grey;
+  margin-right: 3.75rem;
 }
 .main_container .top_logo_container {
   width: 100%;
-  height: 75px;
+  height: 100px;
+  border: 1px dashed lightgray;
   display: flex;
 }
 .main_container .top_logo_container .logo_container {
   width: 25%;
-  height: 75px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
 }
-.main_container .top_logo_container .logo_container .logo {
-  width: 100%;
-  height: 75px;
+.main_container .top_logo_container .logo_container img {
+  width: 200px;
+  height: 96px;
 }
 .main_container .top_logo_container .middle_nav_container {
-  width: 75%;
-  height: 75px;
+  width: 50%;
+  height: 98px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.main_container .top_logo_container .middle_nav_container .middle_nav {
-  width: 100%;
-  height: 75px;
+.main_container .top_logo_container .middle_nav_container a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: grey;
+  margin-right: 3.75rem;
 }
 .main_container .middle_container {
   width: 100%;
@@ -182,6 +215,11 @@ table {
 .main_container .middle_container .header_img_container .header_img {
   width: 100%;
   height: 600px;
+  background: url(../img/church-of-the-king-635531-unsplash.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .main_container .middle_container .middle_box_container {
   width: 600px;
@@ -200,10 +238,32 @@ table {
 .main_container .middle_content_container1 {
   width: 100%;
   height: 500px;
-  border: 2px solid blue;
 }
 .main_container .middle_content_container1 .middle_content1 {
   width: 100%;
   height: 500px;
-  border: 2px solid blue;
+}
+.main_container .middle_content_container2 {
+  width: 100%;
+  height: 600px;
+}
+.main_container .middle_content_container2 .middle_content_2 {
+  width: 100%;
+  height: 600px;
+}
+.main_container .middle_content_container3 {
+  width: 100%;
+  height: 600px;
+}
+.main_container .middle_content_container3 .middle_content_3 {
+  width: 100%;
+  height: 600px;
+}
+.main_container .checkout_btn_container {
+  width: 100%;
+  height: 100px;
+}
+footer {
+  width: 100%;
+  height: 100px;
 }
